@@ -1,0 +1,45 @@
+#body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: linear-gradient(
+      217deg,
+      rgba(76, 1, 196, 0.74),
+      rgba(144, 82, 243, 0.74) 70.71%
+    ),
+    linear-gradient(127deg, rgba(80, 0, 209, 0.74), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(43, 0, 112, 0.74), rgba(0, 0, 255, 0) 70.71%);
+}
+
+#top-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.top-nav-menu div {
+  margin: 0 40px;
+}
+
+#top-nav .top-nav-menu div p {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+#top-nav .top-nav-menu div i {
+  color: white;
+  font-size: 20px;
+}
+
+.active-nav-link {
+  color: white !important;
+}
+
+.top-nav-weather i {
+  font-style: normal !important;
+  margin: 0 3px;
+}

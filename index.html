@@ -6,14 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mercedes dashboard</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/2d27e66301.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
-  <body>
-    <nav>
-      <div></div>
-      <div></div>
-      <div></div>
+  <body id="body">
+    <nav id="top-nav">
+      <div class="top-nav-menu">
+        <div>
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="top-nav-weather">
+          <i class="fas fa-cloud-sun"></i>
+          <i>27°</i>
+        </div>
+      </div>
+
+      <div class="top-nav-menu">
+        <div>
+          <p class="active-nav-link">Controls</p>
+        </div>
+        <div>
+          <p>Maps</p>
+        </div>
+        <div>
+          <p>Media</p>
+        </div>
+        <div>
+          <p>Voice</p>
+        </div>
+      </div>
+
+      <div class="top-nav-menu">
+        <div>
+          <i class="fas fa-search"></i>
+        </div>
+        <div>
+          <i class="fas fa-power-off"></i>
+        </div>
+      </div>
     </nav>
 
     <main>
